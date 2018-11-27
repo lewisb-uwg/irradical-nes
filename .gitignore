@@ -6,8 +6,6 @@
 
 Emulator/**
 Flasher/**
-# note: may want to include GameEngineData/ later?
-GameEngineData/**
 help/**
 *.dll
 *.exe
@@ -19,3 +17,4 @@ help/**
 # Probably want to track:
 # Modules/**
 # BetaAssets/**
+# GameEngineData/** (probably overkill, but gets us the scripts)
