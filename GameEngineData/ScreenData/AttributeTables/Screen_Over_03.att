@@ -1,5 +1,5 @@
 ;; *************** NULL SCREEN ***************
-;; Attribute data export. Tuesday, November 27, 2018 4:11:18 PM
+;; Attribute data export. Tuesday, November 27, 2018 4:50:08 PM
 ;; GraphicBankID = 0x00
 ;; PaletteID = 0x00
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
