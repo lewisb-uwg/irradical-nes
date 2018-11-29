@@ -62,9 +62,9 @@ GameItem14_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem15_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: AntiSkaterGator
 Object0_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object1_animSpeedTable:

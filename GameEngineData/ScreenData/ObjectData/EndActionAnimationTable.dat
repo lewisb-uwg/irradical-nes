@@ -62,7 +62,7 @@ GameItem14_EndAction:		;;EndAnimationType / EndActionType
 GameItem15_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: AntiSkaterGator
 Object0_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

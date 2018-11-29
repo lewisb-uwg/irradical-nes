@@ -330,9 +330,26 @@ GameItem15_Hi:
 	.db >GameItem15_0, >GameItem15_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 0 Monster AntiSkaterGator
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = AntiSkaterGator
+;; Animations = 1
 Object0_Lo:
+;; AnimationType = Default
+	.db <Object0_0, <Object0_0
+	.db <Object0_2, <Object0_0
+	.db <Object0_0, <Object0_0
+	.db <Object0_1, <Object0_0
+
 Object0_Hi:
+;; AnimationType = Default
+	.db >Object0_0, >Object0_0
+	.db >Object0_2, >Object0_0
+	.db >Object0_0, >Object0_0
+	.db >Object0_1, >Object0_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object1_Lo:
 Object1_Hi:

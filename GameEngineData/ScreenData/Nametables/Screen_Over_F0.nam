@@ -1,4 +1,4 @@
-;; Screen data export. Thursday, November 29, 2018 2:20:59 PM
+;; Screen data export. Thursday, November 29, 2018 3:31:10 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x01
 .db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
