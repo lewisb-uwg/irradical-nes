@@ -5,9 +5,9 @@
 ;; Animations = 2
 GameItem0_Lo:
 ;; AnimationType = Moving
-	.db <GameItem0_0, <GameItem0_1
+	.db <GameItem0_3, <GameItem0_1
 	.db <GameItem0_1, <GameItem0_1
-	.db <GameItem0_0, <GameItem0_2
+	.db <GameItem0_3, <GameItem0_2
 	.db <GameItem0_2, <GameItem0_2
 
 ;; AnimationType = Idle
@@ -18,9 +18,9 @@ GameItem0_Lo:
 
 GameItem0_Hi:
 ;; AnimationType = Moving
-	.db >GameItem0_0, >GameItem0_1
+	.db >GameItem0_3, >GameItem0_1
 	.db >GameItem0_1, >GameItem0_1
-	.db >GameItem0_0, >GameItem0_2
+	.db >GameItem0_3, >GameItem0_2
 	.db >GameItem0_2, >GameItem0_2
 
 ;; AnimationType = Idle
