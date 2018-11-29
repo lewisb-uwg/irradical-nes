@@ -1,7 +1,6 @@
-;; *************** NULL SCREEN ***************
-;; Collision data export. Thursday, November 29, 2018 11:08:53 AM
-;; GraphicBankID = 0x00
-;; PaletteID = 0x00
+;; Collision data export. Thursday, November 29, 2018 1:15:59 PM
+;; GraphicBankID = 0x01
+;; PaletteID = 0x01
 
 ;; Collision:
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
@@ -24,9 +23,9 @@ Screen_Over_f0_info:
 ;; Byte 1: ScreenType 
 	.db #$00
 ;; Byte 2: Bank info screen bank(4bits)/graphic bank(2 bits)/00(2bits) 
-	.db #$70
+	.db #$74
 ;; Byte 3: ScreenPaletteId
-	.db #$00
+	.db #$01
 ;; Byte 4: MainTileId(4) / ScreenTileID(4)
 	.db #$00
 ;; Byte 5: ScreenByte00 (Monster respawn/NULL/BossRoom/5-NULLs)
