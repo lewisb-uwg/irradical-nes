@@ -1,4 +1,4 @@
-;; Collision data export. Thursday, November 29, 2018 3:46:43 PM
+;; Collision data export. Thursday, November 29, 2018 4:09:15 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x01
 
@@ -43,7 +43,7 @@ Screen_Over_00_info:
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xxxx0123) 0=showTextOnLoad, 1=underground,2=animated,3=warp 
 	.db #$00
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx)
-	.db #$8d
+	.db #$ad
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx)
 	.db #$00
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx)
