@@ -1,4 +1,4 @@
-;; Shopinfo data export. Thursday, November 29, 2018 3:31:12 PM
+;; Shopinfo data export. Thursday, November 29, 2018 3:46:47 PM
 
 shop_items: 
     .db #$00, #$00, #$00, #$00 ;shop shop00 

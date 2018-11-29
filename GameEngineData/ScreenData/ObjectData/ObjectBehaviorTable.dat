@@ -64,7 +64,7 @@ GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 
 ;; Monster: AntiSkaterGator
 Object0_ActionTypes:
-	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$14, #$14, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object1_ActionTypes:
