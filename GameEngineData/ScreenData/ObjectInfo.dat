@@ -6,7 +6,7 @@
 ;; Animation = DefaultAnimation
 GameItem0_0:
 .db #$1; frame count
-.db #$00, #%00000000, #$03, #%00000000, #$12, #%00000000, #$13, #%00000000
+.db #$02, #%00000000, #$03, #%00000000, #$12, #%00000000, #$13, #%00000000
 ;; Animation = MoveRightAnimation
 GameItem0_1:
 .db #$8; frame count
@@ -52,7 +52,7 @@ GameItem1_0:
 ;; Animation = DefaultAnimation
 GameItem2_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$23, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 3 GameItem: Projectile
@@ -61,8 +61,15 @@ GameItem2_0:
 ;; Size = 1 by1
 ;; Animation = DefaultAnimation
 GameItem3_0:
-.db #$1; frame count
-.db #$00, #%00000000
+.db #$8; frame count
+.db #$20, #%00000000
+.db #$21, #%00000000
+.db #$22, #%00000000
+.db #$21, #%10000000
+.db #$20, #%10000000
+.db #$21, #%11000000
+.db #$22, #%01000000
+.db #$21, #%01000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 4 GameItem: Health Pickup

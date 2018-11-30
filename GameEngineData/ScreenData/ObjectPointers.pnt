@@ -2,12 +2,12 @@
 ;;;; 0 GameItem: Player
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Player
-;; Animations = 2
+;; Animations = 4
 GameItem0_Lo:
-;; AnimationType = Moving
-	.db <GameItem0_3, <GameItem0_1
+;; AnimationType = Walk
+	.db <GameItem0_2, <GameItem0_1
 	.db <GameItem0_1, <GameItem0_1
-	.db <GameItem0_3, <GameItem0_2
+	.db <GameItem0_1, <GameItem0_2
 	.db <GameItem0_2, <GameItem0_2
 
 ;; AnimationType = Idle
@@ -16,14 +16,38 @@ GameItem0_Lo:
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 
+;; AnimationType = Attack
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+
+;; AnimationType = Victory
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+
 GameItem0_Hi:
-;; AnimationType = Moving
-	.db >GameItem0_3, >GameItem0_1
+;; AnimationType = Walk
+	.db >GameItem0_2, >GameItem0_1
 	.db >GameItem0_1, >GameItem0_1
-	.db >GameItem0_3, >GameItem0_2
+	.db >GameItem0_1, >GameItem0_2
 	.db >GameItem0_2, >GameItem0_2
 
 ;; AnimationType = Idle
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+
+;; AnimationType = Attack
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+
+;; AnimationType = Victory
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0

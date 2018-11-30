@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Thursday, November 29, 2018 4:09:19 PM
+;; Script data export. Friday, November 30, 2018 3:27:50 PM
 Script00:
 	.include "Routines\UserScripts\AdventureGame_Base\MovementScripts\ChangeToIdleAnimation.asm"
 Script01:
@@ -20,3 +20,5 @@ Script08:
 	.include "Routines\UserScripts\AdventureGame_Base\MovementScripts\StopMovingPlayerRight.asm"
 Script09:
 	.include "Routines\UserScripts\AdventureGame_Base\MovementScripts\StopMovingPlayerUp.asm"
+Script0a:
+	.include "Routines\UserScripts\AdventureGame_Base\InputScripts\a_create_projectile.asm"

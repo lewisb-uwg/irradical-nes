@@ -54,7 +54,7 @@ notAlreadyShooting
     LDA directionTable,y
     ORA Object_movement,x
     STA Object_movement,x
-      PlaySound #sfx_shoot
+      ;PlaySound #sfx_shoot
 doneShooting:
 
 RTS
