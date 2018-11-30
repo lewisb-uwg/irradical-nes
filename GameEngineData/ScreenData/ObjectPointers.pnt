@@ -374,9 +374,26 @@ Object0_Hi:
 	.db >Object0_1, >Object0_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 1 Monster Sniper
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Sniper
+;; Animations = 1
 Object1_Lo:
+;; AnimationType = Default
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+
 Object1_Hi:
+;; AnimationType = Default
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object2_Lo:
 Object2_Hi:

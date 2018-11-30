@@ -66,7 +66,7 @@ GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 Object0_ActionTypes:
 	.db #$64, #$14, #$14, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Sniper
 Object1_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
