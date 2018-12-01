@@ -126,14 +126,14 @@ GameItem7_0:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 8 GameItem: Effect 0
+;;;; 8 GameItem: Monster Projectile
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Effect 0
+;; Monster = Monster Projectile
 ;; Size = 1 by1
 ;; Animation = DefaultAnimation
 GameItem8_0:
-.db #$00
-.db #%00000000
+.db #$06
+.db #%00000001
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -148,14 +148,14 @@ GameItem9_0:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 10 GameItem: Effect 2
+;;;; 10 GameItem: Monster Projectile
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Effect 2
+;; Monster = Monster Projectile
 ;; Size = 1 by1
 ;; Animation = DefaultAnimation
 GameItem10_0:
-.db #$00
-.db #%00000000
+.db #$06
+.db #%00000001
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -30,7 +30,7 @@ GameItem6_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem7_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Monster Projectile
 GameItem8_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -38,7 +38,7 @@ GameItem8_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem9_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 2
+;; Monster: Monster Projectile
 GameItem10_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -68,7 +68,7 @@ Object0_ActionTypes:
 
 ;; Monster: Sniper
 Object1_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$40, #$07, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_ActionTypes:

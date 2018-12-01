@@ -1,4 +1,4 @@
-;; Collision data export. Friday, November 30, 2018 4:05:23 PM
+;; Collision data export. Friday, November 30, 2018 10:02:47 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x01
 
@@ -43,11 +43,11 @@ Screen_Over_00_info:
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xxxx0123) 0=showTextOnLoad, 1=underground,2=animated,3=warp 
 	.db #$00
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx)
-	.db #$24
+	.db #$8b
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx)
-	.db #$3c
+	.db #$00
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx)
-	.db #$72
+	.db #$00
 ;; Byte 15: Monster 1 Origin Night Normal (yyyyxxxx)
 	.db #$00
 ;; Byte 16: Monster 2 Origin Night Normal (yyyyxxxx)
@@ -91,7 +91,7 @@ Screen_Over_00_info:
 ;; Byte 38: StringPointer Night Triggered 
 	.db #$00
 ;; Byte 39: Monster 4 Origin Day Normal (yyyyxxxx)
-	.db #$bb
+	.db #$00
 ;; Byte 40: Monster 4 Origin Night Normal (yyyyxxxx)
 	.db #$00
 ;; Byte 41: Monster 4 Origin Day Triggered (yyyyxxxx)
