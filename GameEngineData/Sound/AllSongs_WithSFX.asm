@@ -1,92 +1,131 @@
-song_index_EmptySong = 0
-song_EmptySong = 0
+song_index_New = 0
+song_New = 0
 
-sfx_index_sfx_emptySFX = 0
-sfx_emptySFX = 0
 
 song_list:
-	.dw EmptySong
+	.dw New
 
 sfx_list:
-	.dw _sfx_emptySFX
 
 instrument_list:
-	.dw Silence_0
-	.dw Silent_1
+	.dw simple_0
+	.dw drone_1
+	.dw Silent_2
 
-Silence_0:
+simple_0:
+	.db 5, 9, 11, 13, ARP_TYPE_ABSOLUTE
+	.db 13,6,ENV_LOOP, 6
+	.db 0,ENV_STOP
+	.db 0,DUTY_ENV_STOP
+	.db ENV_STOP
+drone_1:
 	.db 5, 7, 9, 11, ARP_TYPE_ABSOLUTE
 	.db 0,ENV_STOP
 	.db 0,ENV_STOP
 	.db 0,DUTY_ENV_STOP
 	.db ENV_STOP
-Silent_1:
+Silent_2:
 	.db 5, 7, 9, 11, ARP_TYPE_ABSOLUTE
 	.db 0,ENV_STOP
 	.db 0,ENV_STOP
 	.db 0,DUTY_ENV_STOP
 	.db ENV_STOP
 
-EmptySong:
+New:
 	.db 0
-	.db 6
+	.db 12
 	.db 0
-	.db 5
-	.dw EmptySong_square1
-	.dw EmptySong_square2
-	.dw EmptySong_triangle
-	.dw EmptySong_noise
+	.db 10
+	.dw New_square1
+	.dw New_square2
+	.dw New_triangle
+	.dw New_noise
 	.dw 0
 
-EmptySong_square1:
-	.db CAL,<(EmptySong_square1_0),>(EmptySong_square1_0)
+New_square1:
+	.db CAL,<(New_square1_0),>(New_square1_0)
+	.db CAL,<(New_square1_1),>(New_square1_1)
+	.db CAL,<(New_square1_3),>(New_square1_3)
+	.db CAL,<(New_square1_3),>(New_square1_3)
+	.db CAL,<(New_square1_0),>(New_square1_0)
+	.db CAL,<(New_square1_1),>(New_square1_1)
 	.db GOT
-	.dw EmptySong_square1
+	.dw New_square1
 
-EmptySong_square2:
-	.db CAL,<(EmptySong_square2_0),>(EmptySong_square2_0)
+New_square2:
+	.db CAL,<(New_square2_0),>(New_square2_0)
+	.db CAL,<(New_square2_0),>(New_square2_0)
+	.db CAL,<(New_square2_0),>(New_square2_0)
+	.db CAL,<(New_square2_0),>(New_square2_0)
+	.db CAL,<(New_square2_0),>(New_square2_0)
+	.db CAL,<(New_square2_0),>(New_square2_0)
 	.db GOT
-	.dw EmptySong_square2
+	.dw New_square2
 
-EmptySong_triangle:
-	.db CAL,<(EmptySong_triangle_0),>(EmptySong_triangle_0)
+New_triangle:
+	.db CAL,<(New_triangle_0),>(New_triangle_0)
+	.db CAL,<(New_triangle_1),>(New_triangle_1)
+	.db CAL,<(New_triangle_2),>(New_triangle_2)
+	.db CAL,<(New_triangle_2),>(New_triangle_2)
+	.db CAL,<(New_triangle_0),>(New_triangle_0)
+	.db CAL,<(New_triangle_1),>(New_triangle_1)
 	.db GOT
-	.dw EmptySong_triangle
+	.dw New_triangle
 
-EmptySong_noise:
-	.db CAL,<(EmptySong_noise_0),>(EmptySong_noise_0)
+New_noise:
+	.db CAL,<(New_noise_1),>(New_noise_1)
+	.db CAL,<(New_noise_0),>(New_noise_0)
+	.db CAL,<(New_noise_0),>(New_noise_0)
+	.db CAL,<(New_noise_0),>(New_noise_0)
+	.db CAL,<(New_noise_0),>(New_noise_0)
+	.db CAL,<(New_noise_0),>(New_noise_0)
 	.db GOT
-	.dw EmptySong_noise
+	.dw New_noise
 
 
-EmptySong_square1_0:
-	.db STI,1,SL8,A0
+New_square1_0:
+	.db STI,0,SL2,C3,C3,G3,G3,A3,A3,SL4,G3
 	.db RET
 
 
-EmptySong_square2_0:
-	.db STI,1,SL8,A0
+New_square2_0:
+	.db STI,2,SL0,A0
 	.db RET
 
 
-EmptySong_triangle_0:
-	.db STI,1,SL8,A0
+New_triangle_0:
+	.db STI,1,SL8,G4,SL4,F4,E4
 	.db RET
 
 
-EmptySong_noise_0:
-	.db STI,1,SL8,0
+New_noise_1:
+	.db STI,2,SL0,0
 	.db RET
 
 
+New_square1_1:
+	.db STI,0,SL2,F3,F3,E3,E3,D3,D3,SL4,C3
+	.db RET
 
-_sfx_emptySFX:
-	.db 0, 1
-	.db 0, 1
-	.dw 0
-	.dw 0
-	.dw 0
-	.dw 0
-	.dw 0
+
+New_triangle_1:
+	.db STI,1,SL4,F4,E4,D4,C4
+	.db RET
+
+
+New_noise_0:
+	.db STI,2,SL0,0
+	.db RET
+
+
+New_square1_3:
+	.db STI,0,SL2,G3,G3,F3,F3,E3,E3,SL4,D3
+	.db RET
+
+
+New_triangle_2:
+	.db STI,1,SL4,E4,F4,E4,D4
+	.db RET
+
 
 
