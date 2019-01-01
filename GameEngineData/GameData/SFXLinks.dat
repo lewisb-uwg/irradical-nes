@@ -1,5 +1,5 @@
 ;; *************** SFXLinks.dat ***************
-;; SFX defines export. Wednesday, December 19, 2018 12:59:54 PM
+;; SFX defines export. Tuesday, January 1, 2019 6:10:01 PM
 
 SFX_LOCKED_DOOR = #0
 SFX_BREAKABLE_BLOCK = #0
@@ -13,4 +13,3 @@ SFX_MONSTER_DEAD = #0
 SFX_DO_TRIGGER = #0
 SFX_MONSTER_LOCK = #0
 SFX_MISS = #0
-SFX_SHOOT = #0

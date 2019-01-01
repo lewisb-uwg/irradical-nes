@@ -2,54 +2,18 @@
 ;;;; 0 GameItem: Player
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Player
-;; Animations = 4
+;; Animations = 1
 GameItem0_Lo:
-;; AnimationType = Walk
-	.db <GameItem0_2, <GameItem0_1
-	.db <GameItem0_1, <GameItem0_1
-	.db <GameItem0_1, <GameItem0_2
-	.db <GameItem0_2, <GameItem0_2
-
-;; AnimationType = Idle
+;; AnimationType = Default
 	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-
-;; AnimationType = Attack
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-
-;; AnimationType = Victory
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_1, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 
 GameItem0_Hi:
-;; AnimationType = Walk
-	.db >GameItem0_2, >GameItem0_1
-	.db >GameItem0_1, >GameItem0_1
-	.db >GameItem0_1, >GameItem0_2
-	.db >GameItem0_2, >GameItem0_2
-
-;; AnimationType = Idle
+;; AnimationType = Default
 	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-
-;; AnimationType = Attack
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-
-;; AnimationType = Victory
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_1, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
 
@@ -195,9 +159,9 @@ GameItem7_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 8 GameItem: Monster Projectile
+;;;; 8 GameItem: Effect 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Monster Projectile
+;; Monster = Effect 0
 ;; Animations = 1
 GameItem8_Lo:
 ;; AnimationType = Default
@@ -235,9 +199,9 @@ GameItem9_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 10 GameItem: Monster Projectile
+;;;; 10 GameItem: Effect 2
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Monster Projectile
+;; Monster = Effect 2
 ;; Animations = 1
 GameItem10_Lo:
 ;; AnimationType = Default
@@ -354,46 +318,12 @@ GameItem15_Hi:
 	.db >GameItem15_0, >GameItem15_0
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 0 Monster AntiSkaterGator
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = AntiSkaterGator
-;; Animations = 1
+;;;;;;;;; Null Monster ;;;;;;;;
 Object0_Lo:
-;; AnimationType = Default
-	.db <Object0_0, <Object0_0
-	.db <Object0_2, <Object0_0
-	.db <Object0_0, <Object0_0
-	.db <Object0_1, <Object0_0
-
 Object0_Hi:
-;; AnimationType = Default
-	.db >Object0_0, >Object0_0
-	.db >Object0_2, >Object0_0
-	.db >Object0_0, >Object0_0
-	.db >Object0_1, >Object0_0
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 1 Monster Sniper
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Sniper
-;; Animations = 1
+;;;;;;;;; Null Monster ;;;;;;;;
 Object1_Lo:
-;; AnimationType = Default
-	.db <Object1_0, <Object1_0
-	.db <Object1_0, <Object1_0
-	.db <Object1_0, <Object1_0
-	.db <Object1_0, <Object1_0
-
 Object1_Hi:
-;; AnimationType = Default
-	.db >Object1_0, >Object1_0
-	.db >Object1_0, >Object1_0
-	.db >Object1_0, >Object1_0
-	.db >Object1_0, >Object1_0
-
-
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object2_Lo:
 Object2_Hi:

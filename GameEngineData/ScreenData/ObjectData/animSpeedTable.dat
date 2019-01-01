@@ -1,6 +1,6 @@
 ;; Monster: Player
 GameItem0_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$16, #$07, #$22, #$30, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Melee
 GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -12,7 +12,7 @@ GameItem2_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 
 ;; Monster: Projectile
 GameItem3_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$02, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Health Pickup
 GameItem4_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -30,17 +30,17 @@ GameItem6_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem7_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Monster Projectile
+;; Monster: Effect 0
 GameItem8_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$01, #$02, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 1
 GameItem9_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Monster Projectile
+;; Monster: Effect 2
 GameItem10_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$01, #$02, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 3
 GameItem11_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -62,13 +62,13 @@ GameItem14_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem15_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: AntiSkaterGator
+;; Monster: NULL
 Object0_animSpeedTable:
-	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Sniper
+;; Monster: NULL
 Object1_animSpeedTable:
-	.db #$01, #$01, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_animSpeedTable:
