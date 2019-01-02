@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Wednesday, January 2, 2019 11:06:28 AM
+;; Script data export. Wednesday, January 2, 2019 11:09:46 AM
 Script00:
 	.include "Routines\UserScripts\AdventureGame_Base\MovementScripts\ChangeToIdleAnimation.asm"
 Script01:
