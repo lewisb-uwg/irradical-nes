@@ -14,7 +14,7 @@ GameItem0_Lo:
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_1, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_2, <GameItem0_0
 
 GameItem0_Hi:
 ;; AnimationType = Idle
@@ -27,7 +27,7 @@ GameItem0_Hi:
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_1, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_2, >GameItem0_0
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

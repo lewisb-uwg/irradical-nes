@@ -1,5 +1,5 @@
 ;; *************** WinScreen ***************
-;; Special Screen data export. Wednesday, January 2, 2019 10:38:30 AM
+;; Special Screen data export. Wednesday, January 2, 2019 10:50:31 AM
 ;; SpecialScreenID = 0x01
 ;; Special PaletteID = 0x00
 NT_WinScreen:

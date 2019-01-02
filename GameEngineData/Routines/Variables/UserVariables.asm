@@ -1,5 +1,5 @@
 ;; *************** UserVariables.asm ***************
-;; HudUser Vars export. Wednesday, January 2, 2019 10:38:30 AM
+;; HudUser Vars export. Wednesday, January 2, 2019 10:50:31 AM
 UserVar_0	.dsb 1
 myHealth	.dsb 1
 myScore	.dsb 1
