@@ -11,8 +11,8 @@ GameItem0_0:
 .db #%00000000
 .db #$10
 .db #%00000000
-.db #$11
-.db #%00000000
+.db #$10
+.db #%01000000
 
 ;; Animation = MoveRightAnimation
 GameItem0_1:

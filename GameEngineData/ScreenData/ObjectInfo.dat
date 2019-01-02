@@ -6,7 +6,7 @@
 ;; Animation = DefaultAnimation
 GameItem0_0:
 .db #$1; frame count
-.db #$00, #%00000000, #$01, #%00000000, #$10, #%00000000, #$11, #%00000000
+.db #$00, #%00000000, #$01, #%00000000, #$10, #%00000000, #$10, #%01000000
 ;; Animation = MoveRightAnimation
 GameItem0_1:
 .db #$3; frame count
