@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Tuesday, January 1, 2019 6:10:00 PM
+;; Code Target data export. Wednesday, January 2, 2019 10:38:30 AM
 SCR_PHYSICS EQU "Routines\UserScripts\AdventureGame_Base\MainScripts\Adventure_Physics.asm"
 SCR_TILE_COLLISION EQU "Routines\UserScripts\AdventureGame_Base\MainScripts\Adventure_TileCollision.asm"
 SCR_HANDLE_BOUNDS EQU "Routines\UserScripts\AdventureGame_Base\MainScripts\Adventure_Bounds.asm"

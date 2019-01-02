@@ -1,5 +1,5 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Tuesday, January 1, 2019 6:10:01 PM
+;; Script link export. Wednesday, January 2, 2019 10:38:30 AM
 ScriptAddressLo:
 	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08, #<Script09
 ScriptAddressHi:
@@ -38,7 +38,7 @@ TargetState_Released:
 	.db #$00
 
 DefinedTargetScripts_Released:
-	.db #$00
+	.db #$02
 
 ;;=======================HOLD=======================
 DefinedInputs_Held:

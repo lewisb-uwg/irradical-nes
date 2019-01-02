@@ -1,2 +1,2 @@
 ;; *************** HandleLoadHud.asm ***************
-;; Constants export. Tuesday, January 1, 2019 6:10:01 PM
+;; Constants export. Wednesday, January 2, 2019 10:38:30 AM

@@ -2,16 +2,28 @@
 ;;;; 0 GameItem: Player
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Player
-;; Animations = 1
+;; Animations = 2
 GameItem0_Lo:
-;; AnimationType = Default
+;; AnimationType = Idle
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+
+;; AnimationType = Walk
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_1, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 
 GameItem0_Hi:
-;; AnimationType = Default
+;; AnimationType = Idle
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+
+;; AnimationType = Walk
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_1, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
