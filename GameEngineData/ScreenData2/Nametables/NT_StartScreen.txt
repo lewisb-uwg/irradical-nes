@@ -1,5 +1,5 @@
 ;; *************** StartScreen ***************
-;; Special Screen data export. Wednesday, January 2, 2019 10:50:31 AM
+;; Special Screen data export. Wednesday, January 2, 2019 11:00:22 AM
 ;; SpecialScreenID = 0x00
 ;; Special PaletteID = 0x00
 NT_StartScreen:
